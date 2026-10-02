@@ -1,0 +1,19 @@
+ALGORITHM_TITLE: Algorithm 1. One GATC cycle at junction j
+Input: trained estimator f; guard parameters κ and ρ_{0}; cycle limits C_{min} and C_{max}; scaling μ; smoothing β; tactical flag
+1:  when junction j ends cycle k − 1 at time t do
+2:      read the latest frame of each of the 12 arm cameras and run the detector
+3:      for every arm: count vehicles by group, compute the lane score (Eq. 3), fill ratio and history features
+4:      assemble the 15 × 14 feature matrix X on the graph G
+5:      (Q̂, Â, ψ̂) ← f(X, G)   (Eqs. 4-6)
+6:      C_{j,k} ← Webster cycle at ψ̂_{j}, scaled by μ, clipped to [C_{min}, C_{max}] and smoothed   (Eq. 9)
+7:      for each arm i of junction j: δ_{ij} ← guard factor   (Eq. 10)
+8:      g_{ij} ← split of C_{j,k} by guarded demand   (Eq. 11)
+9:      order phases by descending guarded demand; the last-served arm does not open the cycle
+10:     for each phase (arm i) in that order do
+11:         give green g_{ij}
+12:         if the tactical layer is on: from g_{min} onwards, check the stop-line zone every 1 s
+13:             if Eq. (12) holds: end the green and pass the unused time to the later phases
+14:         amber 3 s, all-red 2 s
+15:     end for
+16: end when
+Output: plan of junction j; impact scores ψ̂_{j} shown on the operator display

@@ -1,0 +1,23 @@
+gat-local ep   1 train 0.0758 val 0.0770 (6s)
+gat-local ep  11 train 0.0560 val 0.0636 (66s)
+gat-local ep  21 train 0.0554 val 0.0639 (125s)
+gat-local ep  31 train 0.0553 val 0.0624 (184s)
+gat-local ep  41 train 0.0553 val 0.0624 (241s)
+gat-local ep  51 train 0.0551 val 0.0621 (301s)
+gat-local ep  61 train 0.0551 val 0.0622 (361s)
+gat-local ep  71 train 0.0549 val 0.0618 (420s)
+gat-local ep  81 train 0.0549 val 0.0621 (478s)
+gat-local ep  91 train 0.0549 val 0.0626 (535s)
+early stop at 91
+gat_local {"mae_q": 5.576733092475325, "mae_a": 5.415402146396343, "r2_q": 0.7480039948514062, "r2_a": 0.6204525666745775, "mae_y": 8.233165775560874, "rmse_y": 13.820154464992783, "r2_y": 0.8116196656379835, "mae_y_internal": 10.452602395803787, "mae_y_boundary": 7.123447465439419, "r2_y_internal": 0.671106962795633, "mae_psi": 0.10803821771098672, "r2_psi": 0.5442990655080724, "train_time_s": 535.4710338115692, "epochs_run": 91, "best_val_loss": 0.061788760850974116, "n_params": 5613}
+mlp-none ep   1 train 0.0699 val 0.0718 (2s)
+mlp-none ep  11 train 0.0576 val 0.0670 (21s)
+mlp-none ep  21 train 0.0573 val 0.0660 (40s)
+mlp-none ep  31 train 0.0572 val 0.0654 (58s)
+mlp-none ep  41 train 0.0571 val 0.0652 (76s)
+mlp-none ep  51 train 0.0569 val 0.0646 (94s)
+mlp-none ep  61 train 0.0568 val 0.0644 (112s)
+mlp-none ep  71 train 0.0568 val 0.0643 (130s)
+mlp-none ep  81 train 0.0567 val 0.0645 (149s)
+early stop at 83
+mlp_none {"mae_q": 5.219654577040518, "mae_a": 5.762242808570473, "r2_q": 0.740464760597587, "r2_a": 0.5840183986505165, "mae_y": 8.586135714365218, "rmse_y": 14.309499039769191, "r2_y": 0.7980431310720728, "mae_y_internal": 11.13346727968499, "mae_y_boundary": 7.312469931705332, "r2_y_internal": 0.6357021696980023, "mae_psi": 0.1108510271194335, "r2_psi": 0.5219163288919999, "train_time_s": 152.42493295669556, "epochs_run": 83, "best_val_loss": 0.06420825338677784, "n_params": 5357}

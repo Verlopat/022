@@ -1,0 +1,59 @@
+{
+ "FT-W": {
+  "ctrl": "FT-W",
+  "c_max": 200,
+  "plan": "design"
+ },
+ "FT-W*": {
+  "ctrl": "FT-W",
+  "c_max": 200,
+  "plan": "oracle"
+ },
+ "ACT": {
+  "ctrl": "ACT",
+  "gmax": 90,
+  "gap": 2.0
+ },
+ "MP-C": {
+  "ctrl": "MP-C",
+  "C": 120
+ },
+ "MP-A": {
+  "ctrl": "MP-A",
+  "delta": 20,
+  "gmin": 20
+ },
+ "LPS": {
+  "ctrl": "LPS",
+  "C": 120
+ },
+ "LPS-T": {
+  "ctrl": "LPS",
+  "C": 240,
+  "tactical": true,
+  "check_every": 1,
+  "empty_needed": 2
+ },
+ "GATC-S": {
+  "ctrl": "GATC",
+  "kappa": 0.5,
+  "rho0": 0.5,
+  "max_factor": 1.0,
+  "c_max": 240,
+  "tactical": false,
+  "clear_cycle": false,
+  "model": "gat_full"
+ },
+ "GATC": {
+  "ctrl": "GATC",
+  "kappa": 0.5,
+  "rho0": 0.7,
+  "max_factor": 2.0,
+  "c_max": 240,
+  "tactical": true,
+  "check_every": 1,
+  "empty_needed": 2,
+  "clear_cycle": false,
+  "model": "gat_full"
+ }
+}

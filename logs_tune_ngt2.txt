@@ -1,0 +1,35 @@
+930 runs -> results/tuning_NGT2_LPST3_ACT5.jsonl in 153s
+NGT2
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 91.9 {'S1': 50.1, 'S2': 74.8, 'S3': 150.7, 'S4': 81.6, 'S5': 102.1}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.1 {'S1': 49.9, 'S2': 74.4, 'S3': 151.6, 'S4': 81.4, 'S5': 103.2}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.1 {'S1': 49.9, 'S2': 74.4, 'S3': 151.2, 'S4': 81.4, 'S5': 103.7}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 92.1 {'S1': 50.7, 'S2': 74.9, 'S3': 151.8, 'S4': 81.6, 'S5': 101.6}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 92.1 {'S1': 50.1, 'S2': 74.8, 'S3': 151.7, 'S4': 81.6, 'S5': 102.5}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 92.2 {'S1': 50.7, 'S2': 74.9, 'S3': 151.6, 'S4': 81.6, 'S5': 102.0}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.3 {'S1': 50.8, 'S2': 74.7, 'S3': 151.8, 'S4': 82.1, 'S5': 101.9}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.3 {'S1': 50.8, 'S2': 74.6, 'S3': 152.5, 'S4': 82.6, 'S5': 100.9}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.3 {'S1': 50.8, 'S2': 74.7, 'S3': 151.6, 'S4': 82.1, 'S5': 102.3}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.3 {'S1': 50.8, 'S2': 74.6, 'S3': 152.5, 'S4': 82.6, 'S5': 101.1}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 92.5 {'S1': 50.7, 'S2': 74.9, 'S3': 151.8, 'S4': 81.3, 'S5': 103.9}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.5 {'S1': 50.7, 'S2': 74.9, 'S3': 151.8, 'S4': 81.3, 'S5': 103.9}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.6 {'S1': 49.9, 'S2': 74.9, 'S3': 151.9, 'S4': 82.5, 'S5': 103.6}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 92.6 {'S1': 50.7, 'S2': 74.9, 'S3': 151.6, 'S4': 81.3, 'S5': 104.3}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.6 {'S1': 50.7, 'S2': 74.9, 'S3': 151.6, 'S4': 81.3, 'S5': 104.3}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.7 {'S1': 49.9, 'S2': 74.9, 'S3': 152.4, 'S4': 82.5, 'S5': 103.6}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 92.9 {'S1': 50.9, 'S2': 74.7, 'S3': 154.7, 'S4': 82.6, 'S5': 101.4}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 92.9 {'S1': 50.1, 'S2': 74.3, 'S3': 154.8, 'S4': 82.2, 'S5': 103.0}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 92.9 {'S1': 50.1, 'S2': 74.3, 'S3': 154.7, 'S4': 82.2, 'S5': 103.3}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': False} 93.0 {'S1': 50.9, 'S2': 74.7, 'S3': 155.3, 'S4': 82.6, 'S5': 101.4}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 93.6 {'S1': 50.7, 'S2': 75.1, 'S3': 154.7, 'S4': 82.4, 'S5': 105.1}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 2.5, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 93.7 {'S1': 50.7, 'S2': 75.1, 'S3': 155.3, 'S4': 82.4, 'S5': 105.1}
+    {'kappa': 0.5, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 94.0 {'S1': 50.9, 'S2': 75.8, 'S3': 154.9, 'S4': 82.5, 'S5': 106.0}
+    {'kappa': 0.0, 'rho0': 0.7, 'max_factor': 3.0, 'c_max': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2, 'clear_cycle': True} 94.2 {'S1': 50.9, 'S2': 75.8, 'S3': 155.6, 'S4': 82.5, 'S5': 106.0}
+LPST3
+    {'C': 240, 'tactical': True, 'check_every': 1, 'empty_needed': 2} 92.6 {'S1': 48.5, 'S2': 73.3, 'S3': 158.2, 'S4': 81.5, 'S5': 101.6}
+    {'C': 300, 'tactical': True, 'check_every': 1, 'empty_needed': 2} 92.7 {'S1': 48.5, 'S2': 73.3, 'S3': 157.9, 'S4': 82.3, 'S5': 101.4}
+    {'C': 200, 'tactical': True, 'check_every': 1, 'empty_needed': 2} 93.2 {'S1': 48.5, 'S2': 73.3, 'S3': 160.1, 'S4': 82.4, 'S5': 101.9}
+ACT5
+    {'gmax': 90, 'gap': 2.0} 99.5 {'S1': 50.9, 'S2': 77.1, 'S3': 172.7, 'S4': 92.9, 'S5': 104.1}
+    {'gmax': 75, 'gap': 2.0} 101.7 {'S1': 50.9, 'S2': 77.0, 'S3': 175.2, 'S4': 98.6, 'S5': 106.8}
+    {'gmax': 105, 'gap': 2.0} 108.7 {'S1': 50.9, 'S2': 77.1, 'S3': 222.5, 'S4': 91.9, 'S5': 101.1}
+    {'gmax': 60, 'gap': 2.0} 108.8 {'S1': 50.9, 'S2': 77.2, 'S3': 190.8, 'S4': 115.2, 'S5': 110.1}

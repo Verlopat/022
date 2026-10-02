@@ -1,0 +1,26 @@
+{
+ "MP-C": {
+  "frames_per_h": 480.0,
+  "checks_per_h": 0.0
+ },
+ "LPS": {
+  "frames_per_h": 360.0,
+  "checks_per_h": 0.0
+ },
+ "GATC-S": {
+  "frames_per_h": 1220.4,
+  "checks_per_h": 0.0
+ },
+ "MP-A": {
+  "frames_per_h": 2368.05,
+  "checks_per_h": 0.0
+ },
+ "LPS-T": {
+  "frames_per_h": 478.8,
+  "checks_per_h": 5111.25
+ },
+ "GATC": {
+  "frames_per_h": 1436.4,
+  "checks_per_h": 5111.55
+ }
+}
